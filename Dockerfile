@@ -1,4 +1,4 @@
-FROM cgr.dev/chainguard-private/go-fips AS base
+FROM cgr.dev/chainguard-private/go-fips:v1.26.8.1-r0 AS base
 
 WORKDIR /app
 COPY main.go /app
